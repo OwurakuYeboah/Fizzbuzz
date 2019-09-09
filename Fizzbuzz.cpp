@@ -18,10 +18,10 @@ int main()
 		else if (i % 5 == 0)	// This prints BUZZ if the number is a multiple of 5
 			cout << "BUZZ" << endl;
 		else
-			cout << i << endl;
+			cout << i << endl; // This prints the number if it fails all prelisted conditions
 	
 	}
-	system("pause");
+	
 	return 0;
  
 }
